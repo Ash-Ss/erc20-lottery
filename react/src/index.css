@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.jumbo {
+  background-image:    url(./assets/blockchain.jpg);
+  background-size:     cover;  
+  background-repeat:   no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+      margin-top:40px;
+  }
+}
