@@ -7,7 +7,7 @@ module.exports = {
   networks: {
     rinkeby: {
       provider: function () {
-          return new HDWalletProvider(process.env.MNEMONIC, process.env.MNEMONIC
+          return new HDWalletProvider(process.env.MNEMONIC, process.env.URL
           )
       },
       gasPrice: 25000000000,
